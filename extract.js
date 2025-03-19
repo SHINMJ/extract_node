@@ -7,7 +7,7 @@ const ExcelJS = require('exceljs')
 const koreanRegex = /[\uAC00-\uD7A3]+/g
 
 // 프로젝트 내 모든 .js, .jsx, .ts, .tsx 파일을 찾기
-const searchPattern = '**/*.{js,jsx,ts,tsx}'
+const searchPattern = '**/*.{js,jsx,ts,tsx,java}'
 
 const projectRoot = process.argv[2]
   ? path.resolve(process.argv[2])
