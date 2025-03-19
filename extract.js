@@ -75,7 +75,7 @@ const run = async () => {
 
   const files = glob.sync(searchPattern, {
     cwd: projectRoot,
-    ignore: ['node_modules/**'],
+    ignore: ['node_modules/**', '**/test/**'],
     absolute: true,
   })
 
